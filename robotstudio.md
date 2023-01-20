@@ -34,6 +34,9 @@
 3. Still under the "Controller" tab, click "Configuration" > "Motion" > "External Motion Interference Data." Right click the white space in the middle of the screen and click "New External Motion Interference Data." In the box that pops up, set the name as "high_gain," Level as "Raw," and Default Proportional Position Gain as "20." The rest of the options should stay the same.
 ![image](https://user-images.githubusercontent.com/123105763/213751651-63e17253-1d5a-4282-88e3-7263bc063c19.png)
 
+4. Click "Restart" towards the top left of the screen in order to restart the controller.
+![image](https://user-images.githubusercontent.com/123105763/213752284-08b44a4a-11ba-42bb-a9d9-8272783764e6.png)
+
 # Add Program
 1. Create a new program by going to the "Rapid" tab at the top of the screen, then selecting "Program" > "New Module." 
 ![image](https://user-images.githubusercontent.com/123105763/213569029-6b893fe2-ebaa-452e-8069-b8e96ed2faea.png)
