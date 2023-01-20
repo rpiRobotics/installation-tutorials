@@ -44,7 +44,7 @@
 2. In the menu that pops up next, you can name the module anything that you want, then click "OK."
 ![image](https://user-images.githubusercontent.com/123105763/213569230-99c2337d-1a24-40fa-a4e6-84111407a76c.png)
 
-3. The module editor (screen in which you can type code) will open automatically. Delete the code that is there by default, and copy and paste the code from https://github.com/aelias36/robotic-deep-rolling-gui/blob/main/rapid/EGM_less_filtering.RAPID into the editor. 
+3. The module editor (screen in which you can type code) will open automatically. Delete the code that is there by default, and copy and paste the code from [https://github.com/aelias36/robotic-deep-rolling-gui/blob/main/rapid/EGM_less_filtering.RAPID](https://github.com/aelias36/robotic-deep-rolling-gui/blob/main/rapid/cartesian.RAPID) into the editor. 
 ![image](https://user-images.githubusercontent.com/123105763/213569669-5f6cca12-e5a1-47c2-82ac-8a8de7dedd71.png)
 
 4. Click into the code so that your cursor is anywhere within the code. Press ctrl + shift + s together on your keyboard to save the new code into the controller. You will know that you have saved properly if the yellow bar on the left of the code turns green.
