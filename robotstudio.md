@@ -31,6 +31,9 @@
 2. In the "Change Options" menu, select "Engineering Tools" on the left side of the screen under Categories. In the middle of the screen, under Options, check the box for "689-1 Externally Guided Motion (EGM)." Make sure that all boxes on the right side of the screen under Summary are checked. Click "OK" at the bottom of the menu.
 ![image](https://user-images.githubusercontent.com/123105763/213568413-0dc9314d-20a5-4254-b665-abedf126cf0f.png)
 
+3. Still under the "Controller" tab, click "Configuration" > "Motion" > "External Motion Interference Data." Right click the white space in the middle of the screen and click "New External Motion Interference Data." In the box that pops up, set the name as "high_gain," Level as "Raw," and Default Proportional Position Gain as "20." The rest of the options should stay the same.
+![image](https://user-images.githubusercontent.com/123105763/213751651-63e17253-1d5a-4282-88e3-7263bc063c19.png)
+
 # Add Program
 1. Create a new program by going to the "Rapid" tab at the top of the screen, then selecting "Program" > "New Module." 
 ![image](https://user-images.githubusercontent.com/123105763/213569029-6b893fe2-ebaa-452e-8069-b8e96ed2faea.png)
