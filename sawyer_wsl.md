@@ -10,7 +10,7 @@ https://sdk.rethinkrobotics.com/intera/Gazebo_Tutorial
 
 
 ## Install XMing on Windows
-XMing is an X11 server to display linux the GUIs on Windows. The X11 server runs on Windows and handles displaying GUIs, while the programs on Linux (like Gazebo) are X11 clients. If you're using Windows 11 instead of Windows 10, you may not need to use XMing as WSL handles GUIs for you.
+XMing is an X11 server to display the linux GUIs on Windows. The X11 server runs on Windows and handles displaying GUIs, while the programs on Linux (like Gazebo) are X11 clients. If you're using Windows 11 instead of Windows 10, you may not need to use XMing as WSL handles GUIs for you.
 
 https://sourceforge.net/projects/xming/
 
