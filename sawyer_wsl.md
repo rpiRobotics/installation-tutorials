@@ -22,7 +22,7 @@ Run XLaunch from XMing with the following options
 - [x] Disable access control
 
 Before running any program with a GUI, run
-```
+``` shell
 export GAZEBO_IP=127.0.0.1
 export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
 export LIBGL_ALWAYS_INDIRECT=0
@@ -40,7 +40,7 @@ The `tr -d ' '` part removes extra whitespace
 (Hardcoding the WSL IP address doesn't work because it changes every time you start WSL.)
 
 Now if you run 
-```
+``` shell
 ./intera.sh sim
 roslaunch sawyer_gazebo sawyer_world.launch
 ```
@@ -59,7 +59,7 @@ https://www.mathworks.com/support/requirements/previous-releases.html
 
 https://visualstudio.microsoft.com/vs/older-downloads/
 
-## Install python 3
+## Install Python 3
 As documented in the links below, the version of python from the windows store won't work.
 I also had to run `pyenv('Version','3.9')` in MATLAB.
 
@@ -77,14 +77,14 @@ I had to to temporarily turn off antivirus to get the compiler to work
 https://techsupportwhale.com/mt-exe-general-error-c101008d-failed-to-write-the-updated-manifest-to-the-resource-of-file/
 
 To get connect to the ROS network in WSL, you can use
-```
+```matlab
 [status,ip_address] = system("wsl hostname -I")
 ip_address = strtrim(ip_address)
 rosinit(ip_address)
 ```
 
 Now you can send a joint message like the following, which sawyer should respond to
-```
+```yaml
 header:
   seq: 1938
   stamp:
